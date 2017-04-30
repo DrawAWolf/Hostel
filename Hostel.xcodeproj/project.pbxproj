@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F30A1F41EB463BE001D77C3 /* GetAllHostels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30A1F31EB463BE001D77C3 /* GetAllHostels.swift */; };
+		2F30A1F61EB46482001D77C3 /* Hostel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30A1F51EB46482001D77C3 /* Hostel.swift */; };
+		2F8509D21EB354FA006B22F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8509D11EB354FA006B22F2 /* AppDelegate.swift */; };
+		2F8509D41EB354FA006B22F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8509D31EB354FA006B22F2 /* ViewController.swift */; };
+		2F8509D91EB354FA006B22F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8509D81EB354FA006B22F2 /* Assets.xcassets */; };
+		2F8509DC1EB354FA006B22F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8509DA1EB354FA006B22F2 /* LaunchScreen.storyboard */; };
+		2F8509E71EB354FA006B22F2 /* HostelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8509E61EB354FA006B22F2 /* HostelTests.swift */; };
+		2F8509F21EB354FA006B22F2 /* HostelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8509F11EB354FA006B22F2 /* HostelUITests.swift */; };
+		2F850A001EB3582A006B22F2 /* HostelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8509FF1EB3582A006B22F2 /* HostelViewCell.swift */; };
+		2F850A021EB35AB4006B22F2 /* HostelDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F850A011EB35AB4006B22F2 /* HostelDetailController.swift */; };
+		2F850A041EB3A389006B22F2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2F850A031EB3A389006B22F2 /* Podfile */; };
+		49341C995DA48E71278D6D7E /* Pods_Hostel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF45493D36C98EA80705CCAE /* Pods_Hostel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F8509E31EB354FA006B22F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F8509C61EB354FA006B22F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F8509CD1EB354FA006B22F2;
+			remoteInfo = Hostel;
+		};
+		2F8509EE1EB354FA006B22F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F8509C61EB354FA006B22F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F8509CD1EB354FA006B22F2;
+			remoteInfo = Hostel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F30A1F31EB463BE001D77C3 /* GetAllHostels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllHostels.swift; sourceTree = "<group>"; };
+		2F30A1F51EB46482001D77C3 /* Hostel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hostel.swift; sourceTree = "<group>"; };
+		2F8509CE1EB354FA006B22F2 /* Hostel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hostel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8509D11EB354FA006B22F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F8509D31EB354FA006B22F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F8509D81EB354FA006B22F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F8509DB1EB354FA006B22F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F8509DD1EB354FA006B22F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F8509E21EB354FA006B22F2 /* HostelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8509E61EB354FA006B22F2 /* HostelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelTests.swift; sourceTree = "<group>"; };
+		2F8509E81EB354FA006B22F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F8509ED1EB354FA006B22F2 /* HostelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8509F11EB354FA006B22F2 /* HostelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelUITests.swift; sourceTree = "<group>"; };
+		2F8509F31EB354FA006B22F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F8509FF1EB3582A006B22F2 /* HostelViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostelViewCell.swift; sourceTree = "<group>"; };
+		2F850A011EB35AB4006B22F2 /* HostelDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostelDetailController.swift; sourceTree = "<group>"; };
+		2F850A031EB3A389006B22F2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		41F609A89E8FD04CA92D107F /* Pods-Hostel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hostel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hostel/Pods-Hostel.release.xcconfig"; sourceTree = "<group>"; };
+		9525D0E632A05759A0906E4C /* Pods-Hostel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hostel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hostel/Pods-Hostel.debug.xcconfig"; sourceTree = "<group>"; };
+		AF45493D36C98EA80705CCAE /* Pods_Hostel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hostel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F8509CB1EB354FA006B22F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49341C995DA48E71278D6D7E /* Pods_Hostel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8509DF1EB354FA006B22F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8509EA1EB354FA006B22F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F8509C51EB354FA006B22F2 = {
+			isa = PBXGroup;
+			children = (
+				2F850A031EB3A389006B22F2 /* Podfile */,
+				2F8509D01EB354FA006B22F2 /* Hostel */,
+				2F8509E51EB354FA006B22F2 /* HostelTests */,
+				2F8509F01EB354FA006B22F2 /* HostelUITests */,
+				2F8509CF1EB354FA006B22F2 /* Products */,
+				661506BE850C63C28E5D2FFD /* Pods */,
+				87BEFCE58002C8B672B15C11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F8509CF1EB354FA006B22F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F8509CE1EB354FA006B22F2 /* Hostel.app */,
+				2F8509E21EB354FA006B22F2 /* HostelTests.xctest */,
+				2F8509ED1EB354FA006B22F2 /* HostelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F8509D01EB354FA006B22F2 /* Hostel */ = {
+			isa = PBXGroup;
+			children = (
+				2F30A1F51EB46482001D77C3 /* Hostel.swift */,
+				2F8509D11EB354FA006B22F2 /* AppDelegate.swift */,
+				2F8509D31EB354FA006B22F2 /* ViewController.swift */,
+				2F8509FF1EB3582A006B22F2 /* HostelViewCell.swift */,
+				2F850A011EB35AB4006B22F2 /* HostelDetailController.swift */,
+				2F30A1F31EB463BE001D77C3 /* GetAllHostels.swift */,
+				2F8509D81EB354FA006B22F2 /* Assets.xcassets */,
+				2F8509DA1EB354FA006B22F2 /* LaunchScreen.storyboard */,
+				2F8509DD1EB354FA006B22F2 /* Info.plist */,
+			);
+			path = Hostel;
+			sourceTree = "<group>";
+		};
+		2F8509E51EB354FA006B22F2 /* HostelTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F8509E61EB354FA006B22F2 /* HostelTests.swift */,
+				2F8509E81EB354FA006B22F2 /* Info.plist */,
+			);
+			path = HostelTests;
+			sourceTree = "<group>";
+		};
+		2F8509F01EB354FA006B22F2 /* HostelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F8509F11EB354FA006B22F2 /* HostelUITests.swift */,
+				2F8509F31EB354FA006B22F2 /* Info.plist */,
+			);
+			path = HostelUITests;
+			sourceTree = "<group>";
+		};
+		661506BE850C63C28E5D2FFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9525D0E632A05759A0906E4C /* Pods-Hostel.debug.xcconfig */,
+				41F609A89E8FD04CA92D107F /* Pods-Hostel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87BEFCE58002C8B672B15C11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF45493D36C98EA80705CCAE /* Pods_Hostel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F8509CD1EB354FA006B22F2 /* Hostel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8509F61EB354FA006B22F2 /* Build configuration list for PBXNativeTarget "Hostel" */;
+			buildPhases = (
+				32AC8A18D8EFF68F1987012C /* [CP] Check Pods Manifest.lock */,
+				2F8509CA1EB354FA006B22F2 /* Sources */,
+				2F8509CB1EB354FA006B22F2 /* Frameworks */,
+				2F8509CC1EB354FA006B22F2 /* Resources */,
+				836880B6F759C1D87759484F /* [CP] Embed Pods Frameworks */,
+				E99F0992941D4325298FC819 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hostel;
+			productName = Hostel;
+			productReference = 2F8509CE1EB354FA006B22F2 /* Hostel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F8509E11EB354FA006B22F2 /* HostelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8509F91EB354FA006B22F2 /* Build configuration list for PBXNativeTarget "HostelTests" */;
+			buildPhases = (
+				2F8509DE1EB354FA006B22F2 /* Sources */,
+				2F8509DF1EB354FA006B22F2 /* Frameworks */,
+				2F8509E01EB354FA006B22F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F8509E41EB354FA006B22F2 /* PBXTargetDependency */,
+			);
+			name = HostelTests;
+			productName = HostelTests;
+			productReference = 2F8509E21EB354FA006B22F2 /* HostelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F8509EC1EB354FA006B22F2 /* HostelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8509FC1EB354FA006B22F2 /* Build configuration list for PBXNativeTarget "HostelUITests" */;
+			buildPhases = (
+				2F8509E91EB354FA006B22F2 /* Sources */,
+				2F8509EA1EB354FA006B22F2 /* Frameworks */,
+				2F8509EB1EB354FA006B22F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F8509EF1EB354FA006B22F2 /* PBXTargetDependency */,
+			);
+			name = HostelUITests;
+			productName = HostelUITests;
+			productReference = 2F8509ED1EB354FA006B22F2 /* HostelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F8509C61EB354FA006B22F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jushy Shen";
+				TargetAttributes = {
+					2F8509CD1EB354FA006B22F2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					2F8509E11EB354FA006B22F2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F8509CD1EB354FA006B22F2;
+					};
+					2F8509EC1EB354FA006B22F2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F8509CD1EB354FA006B22F2;
+					};
+				};
+			};
+			buildConfigurationList = 2F8509C91EB354FA006B22F2 /* Build configuration list for PBXProject "Hostel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F8509C51EB354FA006B22F2;
+			productRefGroup = 2F8509CF1EB354FA006B22F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F8509CD1EB354FA006B22F2 /* Hostel */,
+				2F8509E11EB354FA006B22F2 /* HostelTests */,
+				2F8509EC1EB354FA006B22F2 /* HostelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F8509CC1EB354FA006B22F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8509DC1EB354FA006B22F2 /* LaunchScreen.storyboard in Resources */,
+				2F8509D91EB354FA006B22F2 /* Assets.xcassets in Resources */,
+				2F850A041EB3A389006B22F2 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8509E01EB354FA006B22F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8509EB1EB354FA006B22F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32AC8A18D8EFF68F1987012C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		836880B6F759C1D87759484F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hostel/Pods-Hostel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E99F0992941D4325298FC819 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hostel/Pods-Hostel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F8509CA1EB354FA006B22F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F850A001EB3582A006B22F2 /* HostelViewCell.swift in Sources */,
+				2F30A1F41EB463BE001D77C3 /* GetAllHostels.swift in Sources */,
+				2F850A021EB35AB4006B22F2 /* HostelDetailController.swift in Sources */,
+				2F8509D41EB354FA006B22F2 /* ViewController.swift in Sources */,
+				2F30A1F61EB46482001D77C3 /* Hostel.swift in Sources */,
+				2F8509D21EB354FA006B22F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8509DE1EB354FA006B22F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8509E71EB354FA006B22F2 /* HostelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8509E91EB354FA006B22F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8509F21EB354FA006B22F2 /* HostelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F8509E41EB354FA006B22F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F8509CD1EB354FA006B22F2 /* Hostel */;
+			targetProxy = 2F8509E31EB354FA006B22F2 /* PBXContainerItemProxy */;
+		};
+		2F8509EF1EB354FA006B22F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F8509CD1EB354FA006B22F2 /* Hostel */;
+			targetProxy = 2F8509EE1EB354FA006B22F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F8509DA1EB354FA006B22F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8509DB1EB354FA006B22F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F8509F41EB354FA006B22F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F8509F51EB354FA006B22F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F8509F71EB354FA006B22F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9525D0E632A05759A0906E4C /* Pods-Hostel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hostel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.jeansbox.Hostel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2F8509F81EB354FA006B22F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F609A89E8FD04CA92D107F /* Pods-Hostel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hostel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.jeansbox.Hostel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2F8509FA1EB354FA006B22F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HostelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.jeansbox.HostelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hostel.app/Hostel";
+			};
+			name = Debug;
+		};
+		2F8509FB1EB354FA006B22F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HostelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.jeansbox.HostelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hostel.app/Hostel";
+			};
+			name = Release;
+		};
+		2F8509FD1EB354FA006B22F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HostelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.jeansbox.HostelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hostel;
+			};
+			name = Debug;
+		};
+		2F8509FE1EB354FA006B22F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HostelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.jeansbox.HostelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hostel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F8509C91EB354FA006B22F2 /* Build configuration list for PBXProject "Hostel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8509F41EB354FA006B22F2 /* Debug */,
+				2F8509F51EB354FA006B22F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8509F61EB354FA006B22F2 /* Build configuration list for PBXNativeTarget "Hostel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8509F71EB354FA006B22F2 /* Debug */,
+				2F8509F81EB354FA006B22F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8509F91EB354FA006B22F2 /* Build configuration list for PBXNativeTarget "HostelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8509FA1EB354FA006B22F2 /* Debug */,
+				2F8509FB1EB354FA006B22F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8509FC1EB354FA006B22F2 /* Build configuration list for PBXNativeTarget "HostelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8509FD1EB354FA006B22F2 /* Debug */,
+				2F8509FE1EB354FA006B22F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F8509C61EB354FA006B22F2 /* Project object */;
+}
